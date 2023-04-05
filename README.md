@@ -1,5 +1,7 @@
 # dbus-codegen-go
 
+**This is a fork of https://github.com/knightpp/dbus-codegen-go of the custom branch, which is now the main branch**
+
 [D-Bus Introspection Data Format](https://dbus.freedesktop.org/doc/dbus-specification.html#introspection-format) Go code generator.
 
 The project depends only on [github.com/godbus/dbus](https://github.com/godbus/dbus) module and cannot be used separately because it operates its data types.
@@ -128,13 +130,13 @@ if err := Emit(conn, &My_Awesome_Interface_SomethingHappenedSignal{
 You can install it with `go get`:
 
 ```bash
-GO111MODULE=on go get -u github.com/amenzhinsky/dbus-codegen-go
+GO111MODULE=on go get -u github.com/malaupa/dbus-codegen-go
 ```
 
 Or clone the repo and build it manually:
 
 ```bash
-git clone https://github.com/amenzhinsky/dbus-codegen-go.git .
+git clone https://github.com/malaupa/dbus-codegen-go.git .
 go install
 ```
 
@@ -215,3 +217,7 @@ The generated output by `printer` package cannot be parsed by gofmt and that is 
 ## Contributing
 
 All contributions are welcome, just create an issue or issue a pull request.
+
+## Credits
+https://github.com/knightpp
+https://github.com/amenzhinsky

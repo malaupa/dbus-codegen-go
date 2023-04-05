@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"text/template"
 
-	"github.com/amenzhinsky/dbus-codegen-go/token"
+	"github.com/malaupa/dbus-codegen-go/token"
 )
 
 // PrintOption is a Print+ configuration option.

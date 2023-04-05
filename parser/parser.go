@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/amenzhinsky/dbus-codegen-go/token"
 	"github.com/godbus/dbus/v5/introspect"
+	"github.com/malaupa/dbus-codegen-go/token"
 )
 
 // Parse parses the given introspection XML into a list of interfaces.

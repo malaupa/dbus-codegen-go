@@ -10,11 +10,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/amenzhinsky/dbus-codegen-go/parser"
-	"github.com/amenzhinsky/dbus-codegen-go/printer"
-	"github.com/amenzhinsky/dbus-codegen-go/token"
 	"github.com/godbus/dbus/v5"
 	"github.com/godbus/dbus/v5/introspect"
+	"github.com/malaupa/dbus-codegen-go/parser"
+	"github.com/malaupa/dbus-codegen-go/printer"
+	"github.com/malaupa/dbus-codegen-go/token"
 )
 
 var (
